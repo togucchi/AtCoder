@@ -19,7 +19,7 @@ namespace AtCoder.Abc
             Console.Out.Flush();
         }
 
-        public static class IO
+        public static class Common
         {
             /// <summary>
             /// ReadLine.
