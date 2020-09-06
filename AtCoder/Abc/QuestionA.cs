@@ -14,11 +14,7 @@ namespace AtCoder.Abc
             var sw = new System.IO.StreamWriter(Console.OpenStandardOutput()) { AutoFlush = false };
             Console.SetOut(sw);
 
-            var a = Common.ReadNum();
-            var b = Common.ReadNumArray();
-            var s = Common.ReadLine();
 
-            Common.WriteResult($"{a + b[0] + b[1]} {s}");
 
             Console.Out.Flush();
         }
